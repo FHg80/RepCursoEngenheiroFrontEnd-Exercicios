@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 400px;
+    width: 100%;
+    
+}
+
+#form-principal input, button{
+    display: block;
+    margin-top: 12px;
+    padding: 2px;
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: .5s;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.msg-acerto {
+    background-color: #27ae60;
+    margin-top: 8px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+.msg-erro {
+    background-color: red;
+    margin-top: 8px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+
+button.disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
