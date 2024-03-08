@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+header, section h2, section h3, form button {
+    font-family: 'Anta', cursive;
+    font-weight: normal;
+}
+
+header {
+    background-color: #870a28;
+    padding: 25px 0;
+    color: white;
+}
+
+header li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+header img {
+    height: 150px;
+    position: absolute;
+    right: 640px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header li a:hover {
+    color: #00613c;
+    transition: .4s;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section {
+    padding: 42px 0;
+    background-color: rgb(221, 221, 221);
+}
+
+section img {
+    height: 400px;
+    margin-right: 32px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.competitions-logos li {
+    display: inline;
+    margin-right: 2px;
+}
+
+.competitions-logos li p {
+    display: inline;
+}
+
+.competitions-logos img {
+    margin-top: 15px;
+    height: 80px;
+}
+
+#help .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-method h3 {
+    margin-bottom: 10px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    margin: 8px;
+    width: 320px;
+    padding: 8px;
+}
+
+form button {
+    border: none;
+    font-weight: bolder;
+}
+
+textarea:focus, input:focus {
+    outline-color: #00613c;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button:hover {
+    background-color: #870a28;
+    color: white;
+    transition: .5s;
+    border: none;
+}
+
+footer {
+    background-color: #870a28;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
