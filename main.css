@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(0, 0, 72);
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Rubik Scribble', sans-serif;
+    font-weight: bold;
+}
+
+form {
+    justify-content: center;
+    padding: 16px;
+    display: flex;
+}
+
+form input, form button {
+    margin-left: 6px;
+    padding: 6px;
+}
+
+form button {
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lista-tarefas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista-tarefas h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 16px;
+    list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    color: red;
+}
+
+.link-tarefa {
+    text-decoration: none;
+}
