@@ -20,9 +20,4 @@ function retornaAprovados() {
      return aprovados;
 }
 
-
-alunos.map((aluno) => {
-     return aluno.nota >= 6
-})
-
 console.log(retornaAprovados());
